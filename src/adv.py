@@ -42,7 +42,7 @@ room['treasure'].s_to = room['narrow']
 
 name = input("What is thy name?")
 player = Player(name, room["outside"])
-print("Welcome {player.name}, prepare to get lost or something..")
+print(f"Welcome {player.name}, prepare to get lost or something..")
 
 # Write a loop that:
 #
